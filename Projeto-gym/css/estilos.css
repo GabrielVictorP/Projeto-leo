@@ -1,0 +1,68 @@
+body {
+  --bege: #E6E0D6;
+  --marrom-escuro: #BA704F;
+  --marrom-claro: #B29463;
+  --branco: #fff;
+  --curriculo-cor-1: #050d18;
+  --curriculo-cor-2: #1f5297;
+  --curriculo-cor-3: #e4edf9;
+  --azul-titulo: #6EC1E4;
+  font-family: 'Barlow', sans-serif;
+  height: 4000px;
+}
+
+
+input[type=checkbox] {
+  border: 2px solid var(--marrom-claro);
+  box-shadow: none;
+}
+
+input[type=checkbox]:checked,
+input[type="checkbox"]:focus {
+  background-color: var(--marrom-claro);
+  border-color: var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  width: 12px;
+  box-shadow: inset 0 0 .3rem #00000050;
+  background-color: var(--branco);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--marrom-claro);
+  border-radius: 15%;
+}
+
+.divider {
+  width: 50%;
+  height: 2px;
+  background-color: var(--marrom-escuro);
+  margin-top: 20px;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  background-color: var(--bege);
+  color: var(--branco);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.mudar-cor{
+  color: var(--azul-titulo);
+}
+
