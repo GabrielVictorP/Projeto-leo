@@ -1,0 +1,175 @@
+@import '../../style.css';
+
+@media (max-width: 1400px) {
+    .contact-box {
+        max-width: 90%;
+    }
+  }
+  
+  
+  .btn-edit {
+    border-radius: 25px;
+  }
+  
+  .botao-padrao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--marrom-claro);
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.6s, color 0.3s;
+  }
+  
+  .botao-padrao:hover {
+    background-color: var(--marrom-escuro);
+    color: var(--branco);
+  }
+  
+  .card-body .btn {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 400px) {
+    .btn-threads {
+        font-size: 20px;
+    }
+  }
+  
+  .cv .cv-title {
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--curriculo-cor-1);
+  }
+  
+  .cv .cv-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid var(--curriculo-cor-2);
+    position: relative;
+  }
+  
+  .cv .cv-item h4 {
+    line-height: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: var(--curriculo-cor-1);
+    margin-bottom: 10px;
+  }
+  
+  .cv .cv-item h5 {
+    background: var(--curriculo-cor-3);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .cv .cv-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -9px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--curriculo-cor-2);
+    background: var(--branco);
+    border-radius: 50%;
+  }
+  
+  .btn-threads {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--marrom-claro);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--marrom-escuro);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+  }
+  
+  .btn-threads:hover {
+    background: var(--marrom-claro);
+    box-shadow: 0 0 1rem rgb(128, 73, 0);
+    color: var(--branco);
+  }
+  
+  .social_media-1 {
+    margin-top: 2px;
+  }
+  
+  .social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 3.5rem;
+    background: var(--marrom-claro);
+    font-size: 2rem;
+    color: var(--bg-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+    border-radius: 25%;
+  }
+  
+  .social-media a:hover {
+    color: var(--text-color);
+  }
+  
+  .social_media-1 a i {
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .social_media-1 a:hover i {
+    color: var(--branco);
+  }
+  
+  .background-section{
+    background-color: var(--curriculo-cor-3);
+  }
+  
+  .editar-redes {
+    font-size: 23px;
+  }
+  
+  #btn-enviar-load{
+    display: none;
+  }
+  
+  #alerta {
+    position: fixed;
+    z-index: 10;
+    top: 100px;
+    right: 30px;
+  }
+  
+  .no-underline {
+    text-decoration: none;
+  }
+  
+  .banner-1 {
+    /* background-image: url(./assets/foto-do-leo-porfolio.png); */
+    background-color: var(--branco);
+  }
+  
+  .banners {
+    height: 100vh;
+    width: 100%;
+  
+  }
+  
+  .banners-titulo {
+    --bs-bg-opacity: .2;
+  }
+  
+  .botao-padrao {
+    background-color: var(--marrom-claro);
+  }
+  
+  .botao-padrao:hover {
+    background-color: var(--marrom-escuro);
+  }
