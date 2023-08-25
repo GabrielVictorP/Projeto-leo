@@ -46,9 +46,14 @@ def send():
         recipients= ['leonardohenriquealves.05@gmail.com', app.config.get("MAIL_USERNAME")],
        body = f'''
             
-            {formContato.nome} com o e-mail {formContato.email}, te enviou a seguinte mensagem:
+            {formContato.nome} 
+            com o telefone {formContato.telefone},
+            com o e-mail {formContato.email},
+            sobre o assunto {formContato.assunto}
+            te enviou a seguinte mensagem:
 
             {formContato.mensagem}
+
 
             '''
     )

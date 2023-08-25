@@ -73,12 +73,12 @@ input[type="checkbox"]:focus {
 .titulo-azul {
   color: var(--azul-titulo);
 }
-
+/* 
 @media (max-width: 480px) {
  .navbar-brand {
    display: none;
   }
-}
+} */
 
 [data-anime] {
   opacity: 0;
@@ -107,3 +107,9 @@ input[type="checkbox"]:focus {
   opacity: 1;
   transform: translate3d(0, 0, 0) ;
 }
+
+.dropdown-menu li::marker {
+  content: ""; /* Isso remove o marcador padrão */
+  /* Adicione outros estilos desejados aqui */
+}
+
