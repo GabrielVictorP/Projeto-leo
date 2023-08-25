@@ -1,0 +1,28 @@
+@import "./estilos.css";
+
+.contact-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 70%; 
+    margin: 0 auto; 
+}
+
+.contact-box input,
+.contact-box textarea {
+    max-width: 100%;
+}
+
+.form-control {
+    border-radius: 30px;
+}
+
+.distancia {
+    margin-top: 100px;
+}
+
+@media (max-width: 1400px) {
+    .contact-box {
+        max-width: 90%;
+    }
+}
